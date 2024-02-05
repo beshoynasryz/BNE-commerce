@@ -1,0 +1,28 @@
+.new_collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* height: 20vh; */  
+    margin-top: 100px;
+   
+}
+.new_collection h1{
+    color: #171717;
+    font-size: 32px;
+    font-weight: 700;
+}
+.new_collection hr{
+    width: 200px;
+    height: 6px;
+    background-color: #252525;
+    border-radius: 10px;
+    
+}
+.item_collection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Change to show 3 items in each row */
+    gap: 50px; 
+    margin-bottom: 50px;
+
+}

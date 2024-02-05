@@ -3,11 +3,11 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    height: 80vh;
 }
 .popular h1{
     color: #171717;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 .popular hr{
@@ -18,6 +18,6 @@
 }
 .popular_item{
     display: flex;
-    margin-top: 50px;
-    gap: 30px;
+    margin-bottom: 50px;
+ 
 }

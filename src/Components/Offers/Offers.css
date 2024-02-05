@@ -1,12 +1,12 @@
 .Offer{
-    width: 67%;
-    display: flex;
-    text-align: center;
-    height: 70vh;
-    margin: auto;
-    padding: 0px 140px;
-    margin-top: 150px;
-    background: linear-gradient(45deg, black, transparent);
+width: 67%;
+display: flex;
+text-align: center;
+height: 70vh;
+margin: auto;
+padding: 0px 140px;
+margin-top: 150px;
+background: linear-gradient(45deg, black, transparent);
 
 }
 .offer_left{
@@ -28,20 +28,21 @@
 .offer_left button{
     width: 320px;
     height: 70px;
-    border: #121212 solid 1px;
+    /* border: #121212 solid 1px; */
      border-radius: 70px;
      font-size: 20px;
      font-weight: 700;
      margin-top: 35px;
-     background-color: #d1d1d1;
+     background-color: #454545;
     cursor: pointer;
+    color: #fff;
       
 
 }
 .offer_left button:hover{
     border:none;
-    color: #121212;
-    background-color: #fff;
+    color: #fff;
+    background-color: #333;
   
 
 }

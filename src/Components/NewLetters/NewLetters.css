@@ -1,0 +1,67 @@
+.new-letters {
+    width: 67%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    margin: auto;
+    padding: 20px 60px; /* Adjusted padding for better spacing */
+    margin-top: 150px;
+    background: linear-gradient(90deg, rgb(170, 82, 82), transparent); /* Adjusted gradient angle */
+}
+
+.new-letters h1 {
+    text-align: center; /* Align text in the center */
+    color: rgb(34, 33, 33);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.new-letters p {
+    text-align: center; /* Align text in the center */
+    color: #454545;
+    font-size: 20px;
+}
+
+/* Rest of your styles remain unchanged */
+
+.new-letters div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 700px;
+    height: 70px;
+    border-radius: 40px; /* Adjust the border-radius value */
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+
+.new-letters input {
+    width: 550px;
+    height: 100%; /* Use 100% height to match the parent height */
+    padding: 0 15px; /* Adjust padding for better appearance */
+    /* Adjusted for consistency */
+    border: none;
+    outline: none;
+    color: #616161;
+    border-radius: 50px;
+    font-size: 16px; /* Set the font size as needed */
+}
+
+.new-letters div button {
+    width: 250px;
+    height: 100%; /* Use 100% height to match the parent height */
+    background-color: #454545;
+    color: #fff;
+    border: none;
+    border-radius: 80px;
+    font-size: 16px; /* Set the font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-letters div button:hover {
+    background-color: #333; /* Change color on hover */
+}
