@@ -14,7 +14,7 @@
 }
 .footer-logo p{
     color: #383838;
-    font-size: 46px;
+    font-size: 32px;
     font-weight: 700;
 
 }
@@ -50,4 +50,12 @@
     margin-bottom: 30px;
     color: #1a1a1a;
     font-size: 20px;
+}
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 200px;
+    height: 3px;
+    background-color: #1a1a1a;
+   
 }
