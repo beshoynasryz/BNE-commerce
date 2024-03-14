@@ -52,3 +52,131 @@ background: linear-gradient(45deg, black, transparent);
     justify-content: flex-end;
     
 }
+@media (max-width: 1280px) {
+    .Offer{
+
+        padding: 0px 80px;
+        margin-top: 120px;
+      
+        
+        }
+     
+        .offer_left h1{
+          
+            font-size: 50px;
+        }
+        .offer_left p{
+           
+            font-size: 18px;
+           
+        }
+      
+        .offer_right img{
+         width: 300px;
+            
+        }
+        .offer_left button{
+            width: 220px;
+            height: 50px;
+          font-size: 18px;
+        }
+        .offer_right{
+            padding-top: 30px;
+        }
+}
+@media (max-width: 1024px) {
+    .Offer{
+
+        padding: 0px 60px;
+        margin-top: 140px;
+        height: 40vh;
+      
+        
+        }
+     
+        .offer_left h1{
+          
+            font-size: 30px;
+        }
+        .offer_left p{
+           
+            font-size: 16px;
+           
+        }
+      
+        .offer_right img{
+         width: 200px;
+            
+        }
+        .offer_left button{
+            width: 160px;
+            height: 40px;
+          font-size: 16px;
+        }
+        .offer_right{
+            padding-top: 10px;
+        }
+}
+@media (max-width: 800px) {
+    .Offer{
+
+       
+        margin-top: 80px;
+       
+      
+        
+        }
+     
+        .offer_left h1{
+          
+            font-size: 22px;
+        }
+        .offer_left p{
+           
+            font-size: 13px;
+           
+        }
+      
+        .offer_right img{
+         width: 180px;
+            
+        }
+        .offer_left button{
+            width: 140px;
+            height: 30px;
+          font-size: 12px;
+        }
+       
+}
+@media (max-width: 500px) {
+    .Offer{
+
+       height: 25vh;
+        margin-top: 50px;
+       
+      
+        
+        }
+     
+        .offer_left h1{
+          
+            font-size: 16px;
+        }
+        .offer_left p{
+           
+            font-size: 10px;
+           
+        }
+      
+        .offer_right img{
+         width: 120px;
+            
+        }
+        .offer_left button{
+            width: 120px;
+            height: 25px;
+          font-size: 10px;
+          margin-top: 12px;
+        }
+       
+}
