@@ -1,245 +1,162 @@
-.new-letters {
-    width: 67%;
+.newletter{
+    width: 65%;
+    height: 40vh;
     display: flex;
+    flex-direction: column  ;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    height: 70vh;
     margin: auto;
-    padding: 20px 60px; /* Adjusted padding for better spacing */
+    padding: 0px 140px;
     margin-top: 150px;
-    background: linear-gradient(90deg, rgb(170, 82, 82), transparent); /* Adjusted gradient angle */
+    background: linear-gradient(-90deg ,#fde1ff 0%, #e1ffea22 90%);
+    gap: 30px;
 }
-
-.new-letters h1 {
-    text-align: center; /* Align text in the center */
-    color: rgb(34, 33, 33);
-    font-size: 32px;
+.newletter h1{
+    color: #454545;
+    font-size: 55px;
     font-weight: 600;
-}
 
-.new-letters p {
-    text-align: center; /* Align text in the center */
+}
+.newletter p{
     color: #454545;
     font-size: 20px;
 }
-
-/* Rest of your styles remain unchanged */
-
-.new-letters div {
+.newletter div{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    text-align: center;
-    width: 650px;
-    height: 65px;
-    border-radius: 40px; 
-    margin-top: 30px;
-    padding-left: 0px;
-   
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border-radius: 1px solid #e3e3e3;
 }
-
-
-.new-letters div input {
-    width: 550px;
-    height: 100%; /* Use 100% height to match the parent height */
-    padding: 0 15px; /* Adjust padding for better appearance */
-    /* Adjusted for consistency */
+.newletter input{
+    width: 500px;
+    margin-left: 30px;
     border: none;
     outline: none;
     color: #616161;
-    border-radius: 50px;
-    font-size: 16px; /* Set the font size as needed */
+    font-family: Poppines;
+    font-size: 16px;
 }
-
-.new-letters div button {
-    width: 250px;
-    height: 100%; /* Use 100% height to match the parent height */
-    background-color: #454545;
-    color: #fff;
-    border: none;
+.newletter div button{
+    width: 210px;
+    height: 70px;
     border-radius: 80px;
-    font-size: 16px; /* Set the font size as needed */
+    background: black;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 
-.new-letters div button:hover {
-    background-color: #333; /* Change color on hover */
 }
-
-@media (max-width:1280px) {
-    .new-letters {
-        padding: 0px 50px;
+@media (max-width: 1280px) {
+    .newletter{
+        padding: 0px 80px;
         margin-top: 120px;
         gap: 20px;
-       
     }
-    
-    .new-letters h1 {
-       
-     
-        font-size: 24px;
-        font-weight: 600;
+    .newletter h1{
+        font-size: 36px;
     }
-    
-    .new-letters p {
-      
+    .newletter p{
         font-size: 16px;
     }
-     
-    .new-letters div {
-       
+
+    .newletter div{
         width: 600px;
         height: 60px;
-       
     }
-    
-    
-    .new-letters div input {
+    .newletter div input{
         width: 400px;
-       
     }
-    
-    .new-letters div button {
+    .newletter div button{
         width: 160px;
-       
+        height: 60px;
     }
-    
-    .new-letters div button:hover {
-        background-color: #333; /* Change color on hover */
-    }
-    
 }
-@media (max-width:1024px) {
-    .new-letters {
-      
-        margin-top: 50px;
-      
+@media (max-width: 1024px) {
+    .newletter{
+       
+        margin-top: 60px;
        
     }
-    
-    .new-letters h1 {
-       
-     
-        font-size: 20px;
-     
+    .newletter h1{
+        font-size: 30px;
     }
-    
-    .new-letters p {
-      
+    .newletter p{
         font-size: 14px;
     }
-     
-    .new-letters div {
+
+    .newletter div{
+        width: 500px;
+        height: 50px;
+    }
+    .newletter div input{
+        width: 300px;
+        font-size: 14px;
+    }
+    .newletter div button{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 800px) {
+    .newletter{
        
+        margin-top: 30px;
+        height: 35vh;
+       
+    }
+    .newletter h1{
+        font-size: 18px;
+    }
+    .newletter p{
+        font-size: 12px;
+    }
+
+    .newletter div{
         width: 400px;
         height: 40px;
-       
     }
-    
-    
-    .new-letters div input {
-        width: 300px;
-        font-size: 14px;
-       
+    .newletter div input{
+        width: 200px;
+        font-size: 13px;
     }
-    
-    .new-letters div button {
+    .newletter div button{
         width: 100px;
         height: 40px;
-        font-size: 14px;
-       
+        font-size: 13px;
     }
-    
-    
-    
 }
-@media (max-width:800px) {
-    .new-letters {
-      
-        margin-top: 30px;
-        height: 35vh;
-      
+@media (max-width: 500px) {
+    .newletter{
+       
+       
+        height: 25vh;
+        width: 100%;
+        padding: 0;
+        gap: 15px;
+
        
     }
-    
-    .new-letters h1 {
-       
-     
+    .newletter h1{
         font-size: 16px;
-     
     }
-    
-    .new-letters p {
-      
-        font-size: 12px;
+    .newletter p{
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
     }
-     
-    .new-letters div {
-       
-        width: 300px;
-        height: 30px;
-       
+
+    .newletter div{
+        width: 290px;
+    
     }
-    
-    
-    .new-letters div input {
-        width: 200px;
-        font-size: 12px;
-       
+    .newletter div input{
+        width: 130px;
+        
     }
-    
-    .new-letters div button {
-        width: 100px;
-        height: 30px;
-        font-size: 12px;
-       
-    }
-    
-    
-    
-}
-@media (max-width:500px) {
-    .new-letters {
-      
-        margin-top: 30px;
-        height: 35vh;
-      
-       
-    }
-    
-    .new-letters h1 {
-       
-     
-        font-size: 16px;
-     
-    }
-    
-    .new-letters p {
-      
-        font-size: 12px;
-    }
-     
-    .new-letters div {
-       
-        width: 200px;
-        height: 20px;
-       
-    }
-    
-    
-    .new-letters div input {
-        width: 100px;
-        font-size: 12px;
-       
-    }
-    
-    .new-letters div button {
-        width: 80px;
-        height: 20px;
-        font-size: 12px;
-       
-    }
-    
-    
-    
+   
 }

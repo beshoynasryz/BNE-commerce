@@ -3,7 +3,7 @@ import './NewLetters.css'
 
 const NewLetters = () => {
   return (
-    <div className='new-letters' >
+    <div className='newletter' >
         <h1> Get Execlusive offer in your mail   </h1>  
         <p>subscribe to out newsletters and stay updated</p> 
        <div>
